@@ -1,4 +1,4 @@
-public class SavingsAccount extends Account implements MaintenanceCharge {
+public class SavingsAccount extends AccountDetails implements MaintenanceCharge {
     public SavingsAccount(String accountNumber, String customerName, double balance) {
         super(accountNumber, customerName, balance);
     }
