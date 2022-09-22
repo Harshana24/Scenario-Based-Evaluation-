@@ -2,7 +2,7 @@ package com.utility;
 
 import java.util.List;
 
-public class  Player {
+public class  PlayerDetails {
     private List<Integer> scoreList;
 
     public List<Integer> getScoreList() {
