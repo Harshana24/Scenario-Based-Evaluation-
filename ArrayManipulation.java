@@ -2,7 +2,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ArrayManipulation {
-    public String getPriceDetails() {
+    public String getPrices() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter the number of elements in the array");
@@ -32,6 +32,6 @@ public class ArrayManipulation {
     }
 
     public static void main(String[] args) {
-        System.out.println(new ArrayManipulation().getPriceDetails());
+        System.out.println(new ArrayManipulation().getPrices());
     }
 }
